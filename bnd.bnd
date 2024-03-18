@@ -1,0 +1,15 @@
+Bundle-SymbolicName: com.xiaosheng.tool.json
+Bundle-Name: ${project.name}
+Bundle-Description: ${project.description}
+Bundle-Vendor: xiaosheng tool Project
+Bundle-ContactAddress: ${project.parent.url}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6, JavaSE-1.7, JavaSE-1.8
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+
+-removeheaders: Private-Package
+
+-exportcontents:\
+    com.xiaosheng.tool.json,\
+    com.xiaosheng.tool.json.annotations,\
+    com.xiaosheng.tool.json.reflect,\
+    com.xiaosheng.tool.json.stream
