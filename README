@@ -3,3 +3,14 @@
 # 说明
 感谢google gson
 本项目基于gson中gson模块二次开发
+
+# 使用
+```js
+    var StringClass = Java.use("java.lang.String");
+    var StringClass = Java.use("java.lang.String");
+    var byteArray = StringClass.$new("Hello World").getBytes();
+    Java.openClassFile("/data/local/tmp/xiaosheng-dex-tool.dex").load();
+    var js = Java.use("com.xiaosheng.tool.json.Gson");
+    console.log(js.$new().toJson(byteArray));
+    var gson = js.$new();
+```
